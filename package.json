@@ -28,6 +28,7 @@
     "build": "rollup -c",
     "clean": "git clean -fdX .",
     "lint": "eslint modules",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build",
     "test": "karma start --single-run"
   },
